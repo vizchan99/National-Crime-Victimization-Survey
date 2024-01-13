@@ -38,7 +38,7 @@ and 0 if they did not. Because we have a positive and negative class, we will be
 • class<br>
 • nnet<br>
 
-## Prprocessing
+## Preprocessing
 Since there are results that indicate non-answers, we will be avoiding including those in our training. There
 are also several columns that are heavily populated by a single response. Our first step is to target low
 variance and noisy data. One way to address these in bulk is to simply filter by number of factors. Variables
